@@ -12,14 +12,32 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .beerContainer {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   margin: 20px;
+  border: 2px solid black;
 }
 img {
   object-fit: contain;
   width: 150px;
   height: 150px;
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+}
+div {
+  overflow: auto;
+}
+.beerTag {
+  font-style: italic;
+  text-align: center;
+}
+.beerName {
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
 }
