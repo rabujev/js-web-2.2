@@ -8,3 +8,18 @@
   If you need some CSS for any reason you can put it here.
 */
 
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.beerContainer {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+img {
+  object-fit: contain;
+  width: 150px;
+  height: 150px;
+}
